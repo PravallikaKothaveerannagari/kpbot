@@ -1,0 +1,20 @@
+{
+  "profileName": "AzreBot",
+  "jobId": "205dab0b-ca0d-45a3-95a6-f5945ff58d26",
+  "projectId": "85570.19121977387",
+  "time": "2024-04-29T11:55:13.217Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: v-pkothaveer-Mindtree at eastus",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 875694dc-c1dc-4ff3-9f15-e30a58d07177",
+    "Add application password failed, retrying ...",
+    "Add application password failed, retrying ...",
+    "Add application password failed, retrying ...",
+    "Add application password failed, retrying ...",
+    "Add application password failed after 3 retries. Error: Request failed with status code 400",
+    "{\"name\":\"CREATE_APP_REGISTRATION\",\"message\":\"Add application password failed! Please file an issue on Github.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Users\\\\v-pkothaveer\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276418:25)\\n    at createCustomizeError (C:\\\\Users\\\\v-pkothaveer\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276423:10)\\n    at BotProjectProvision.createApp (C:\\\\Users\\\\v-pkothaveer\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:277967:17)\"}",
+    "{\"name\":\"CREATE_APP_REGISTRATION\",\"message\":\"Add application password failed! Please file an issue on Github.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Users\\\\v-pkothaveer\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276418:25)\\n    at createCustomizeError (C:\\\\Users\\\\v-pkothaveer\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276423:10)\\n    at BotProjectProvision.createApp (C:\\\\Users\\\\v-pkothaveer\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:277967:17)\"}. See provision.AzreBot.log in your bot folder"
+  ]
+}

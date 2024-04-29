@@ -1,0 +1,12 @@
+[import](common.lg)
+
+# SendActivity_GMeVXZ()
+[Activity
+    Text = ${SendActivity_GMeVXZ_text()}
+]
+
+# SendActivity_GMeVXZ_text()
+- ```Today's menu
+ \- Pizza
+ \- Burger and fries
+ \- Chicken sandwich```
